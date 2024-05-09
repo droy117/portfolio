@@ -18,24 +18,19 @@ const { title } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
     </head>
-    <body class="mt-4 w-2/5 mx-auto bg-blackText tracking-widest" style='font-family: "Montserat", sans-serif;''>
-        <ul class="flex justify-between gap-x-8 text-xl">
-            <li
-                class="cursor-pointer p-1 text-greenText hover:text-blackText hover:bg-greenText"
-            >
+    <body class="mt-4 md:w-2/5 px-4 mx-auto bg-blackText tracking-widest" style='font-family: "Montserrat", sans-serif;'>
+        <ul class="flex flex-row md:flex-row justify-between md:gap-x-8 text-xl">
+            <li class="cursor-pointer p-1 text-greenText hover:text-blackText hover:bg-greenText">
                 <a href="/">[home]</a>
             </li>
-            <li
-                class="cursor-pointer p-1 text-orangeText hover:text-blackText hover:bg-orangeText"
-            >
+            <li class="cursor-pointer p-1 text-orangeText hover:text-blackText hover:bg-orangeText ">
                 <a href="/about">[about me]</a>
             </li>
-            <li
-                class="cursor-pointer p-1 text-yellowText hover:text-blackText hover:bg-yellowText"
-            >
+            <li class="cursor-pointer p-1 text-yellowText hover:text-blackText hover:bg-yellowText">
                 <a href="/blogs">[blogs]</a>
             </li>
         </ul>
         <slot />
     </body>
+    
 </html>
