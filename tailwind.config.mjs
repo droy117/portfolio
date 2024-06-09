@@ -10,7 +10,8 @@ export default {
 			"greenText": "rgba(27, 235, 158, 0.9)",
 			"purpleText": "rgba(180, 98, 255, 0.9)",
 			"blackText": "#1a1a1a",
-			"whiteText": "#ffffff"
+			"whiteText": "#ffffff",
+			"grayText": "#818181"
 		}
 	},
 	plugins: [],
